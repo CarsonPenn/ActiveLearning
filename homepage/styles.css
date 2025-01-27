@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-list a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(to bottom right, #007bff, #00bcd4);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carson Smith Portfolio</title>
+    <link rel="stylesheet" href="homepage/styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Carson Penn Smith</h1>
+        <nav class="menu">
+          <ul class="menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="homepage/project.html">Project Files</a></li>
+            <li><a href="homepage/video.html">Video Walkthroughs</a></li>
+            <li><a href="homepage/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Welcome to My Website</h2>
+        <p>I am a software engineering student </p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </section>
+  </body>
+  </html>
+    
