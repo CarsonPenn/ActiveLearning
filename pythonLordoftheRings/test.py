@@ -1,0 +1,1 @@
+# for easy medium and hard functions have it cycle through the array to make sure that it is pulling the correct quesitons and answers
