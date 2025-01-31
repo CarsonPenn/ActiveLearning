@@ -1,0 +1,483 @@
+/* fonts DM serif display and then Akatab*/
+@import url('https://fonts.googleapis.com/css2?family=Akatab&family=Carter+One&family=DM+Serif+Display&family=Inclusive+Sans&family=Mooli&family=Righteous&display=swap');
+ 
+/* color pallete */
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #1E0055   ;
+    --secondary-color: #493076 ;
+    --accent1-color: #FFC3C3;
+    --accent2-color: #222121;
+    --accent3-color: #2D2B2B;
+    /* change the values below to your chosen font(s) */
+    --heading-font: DM Serif Display;
+    --paragraph-font: Akatab, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #1E0055;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #493076; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #1E0055  ;
+    --nav-link-color: #1E0055;
+    --nav-background-color: #493076;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #FFC3C3;
+  }
+
+#content{
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+.logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 150px;   
+    height:auto;
+}
+
+nav a {
+    background-color:#5A9367;
+    text-decoration:none;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+    text-align: center;
+    align-items:center;
+    font-size: 1.3em;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-family: 'Akatab';
+    align-items: center;
+}
+
+nav a:hover{
+    color:#94D3FA;
+    border:#ff6b6b;
+    border-radius: 2px;
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+header{
+    background-color: #44633F;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+body{
+    background-color: #2D2B2B;
+    font-family: 'Akatab', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+/* end of header and navigation */
+/* beginning of hero */
+#hero{
+    margin: 0 auto;
+    display: block;
+}
+#hero-h3{
+    font-family: 'DM Serif Display';
+    color: #94D3FA;
+    padding-left: 55px;
+    margin-bottom:-30px;
+}
+#hero-h2{
+    font-family: 'DM Serif Display';
+    color:#ffffff;
+    padding-left:65px;
+}
+
+#img-hero{
+    padding-top: 100px;
+    width:100%;
+    margin-top:-100px;
+}
+
+#paragraph{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        /* border:3px solid green; */
+        margin: 0 auto;
+        padding-bottom:25px;
+}
+#text-container {
+    display:block;
+}
+#para-h2 {
+    color:white;
+    padding-left:60px;
+    font-family: 'DM Serif Display';
+    /* border:3px solid orange; */
+    grid-column: 1;
+    grid-row:1/2;
+}
+
+#para-msg {
+    color:white;
+    max-width:400px;
+    padding-left:60px;
+    /* border:3px solid orange; */
+    grid-column: 1;
+    grid-row:1;
+}
+#para-msg2 {
+    color:white;
+    max-width:400px;
+    padding-left:60px;
+    margin-top: -10px;
+    /* border:3px solid orange; */
+    grid-column: 1;
+    grid-row:2;
+}
+
+#para-button{
+    text-align: center;
+    /* border:3px solid orange; */
+    grid-row:3;
+}
+#lm:hover {
+    background-color:#FFFFFF;
+    color:#5A9367;
+}
+#lm{
+    width:100px;
+    height:25px;
+    text-align: center;
+    color:#FFFFFF;
+    background:#5A9367;
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left:60px;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 5px;
+    grid-column:1/1; 
+    grid-row:4; 
+    /* border:3px solid orange; */
+
+}
+
+#para-img {
+    float:right;
+    grid-column:2/3;
+    grid-row:1;
+    padding-top:75px;
+    margin-left:-180px;
+    height:450px;
+    /* border:3px solid orange; */
+}
+
+/* end of hero */
+/* beginning of footer */
+footer {
+    background-color:#5A9367;
+    color:#ffffff;
+    padding-top: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color:#ffffff;
+    text-decoration:none;
+}
+footer p {
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+    color:#FFC3C3;
+} 
+/* end of footer */
+/* end of index */
+/* beginning of world.html */
+/* beginnging of top section */
+.top {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border:3px solid blue; */
+    /* padding-top:25px; */
+}
+.text-div{
+    display:block;
+    grid-column: 1;
+    /* border:3px solid orange; */
+    width:600px;
+    
+}
+.img-top {
+    align-items: center;
+    padding:15px;
+     /* float:right; */
+     width:90%;
+     /* border:3px solid orange; */
+}
+.top-h2 {
+    color:white;
+    padding-left: 65px;
+    
+}
+
+.top-p {
+    color:white;
+    padding-left: 65px;
+}
+.img-top-div{
+    display:block;
+    grid-column:2;
+    /* padding:15px; */
+    /* border:3px solid green; */
+
+
+}
+
+/* end of top section */
+/* beginning of species section */
+.section{
+    padding-top: 25px;
+    background:white;
+    /* border: 3px solid #73AD21; */
+}
+.article-h2 {
+    color:#5A9367;
+    font-family: Dm Serif Display;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left:35px;
+    display:inline;
+}
+.article-p {
+    font-family: Akatab;
+    padding-left:35px;
+}
+.article-div {
+    /* position: relative; */
+    /* width: 1400px; */
+    height: 200px;
+    /* border: 3px solid #73AD21; */
+    margin: 0 auto;
+    /* display:inline; */
+}
+.world-img {
+    height: 200px;
+    display: inline;
+    float:right;
+    margin-top:-45px;
+}
+/* seciton 2 */
+.section2{
+    padding-top: 25px;
+    background:rgb(219, 219, 219);
+    /* border: 3px solid #73AD21; */
+}
+.world-img2 {
+    height: 200px;
+    display: block;
+    float:left;
+    padding-left: 0px;
+    padding-right:15px;
+    margin-top:-50px;
+    /* border: 3px solid ORANGE; */
+
+    
+}
+.article-h2-2 {
+    color:#493076;
+    font-family: Dm Serif Display;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left:220px;
+    display:inline;
+}
+/* seciton 3 */
+.world-imgd {
+    height: 200px;
+    display: block;
+    float:right;
+    margin: 0 auto;
+    margin-top:-70px;
+    /* border: 3px solid ORANGE; */
+    
+}
+/* end of species section */
+/* end of world.html */
+/* beginning of contactus.html */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .h2cu {
+    color:white;
+    text-align:center;
+    font-family: DM Serif Display;
+  }
+  form li + li {
+    margin-top: 1em;
+    color:white;
+    padding: 0 10px;
+    
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: block;
+    width: 90px;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    padding:0.5rem;
+  }
+  .list1 {
+    display:inline;
+  }
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    /* padding-left: 90px; same size as the label elements */
+    align-items: center;
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin:15px;
+    background:#5A9367;
+    border-radius: 10px;
+    font-family: Akatab;
+    font-size:1.5em;
+    color:white;
+
+  }
+  button:hover{
+    background: #94D3FA;
+    color:#5A9367;
+  }
+  
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+.info {
+    background:#6f6c6c;
+    max-width: 800px;
+    /* text-align:center; */
+    margin:0 auto;
+    /* display:inline; */
+}
+
+.form-edit{
+    padding-top: 20px;
+    /* display: inline; */
+}
+.bottom {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+.h2ct {
+    text-align: center;
+    color:white;
+    font-family: DM Serif Display;
+}
+.bottomimg {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+
+}
+/* end of contactus.html */
+/* beginning of about.html */
+
+
+.h2ab {
+    color:white;
+    text-align:center;
+    font-family: DM Serif Display;
+}
+
+.p-ab {
+    color:white;
+    font-family: 'Akatab';  
+    margin: 0 auto;
+    padding-left:25px;
+    padding-bottom:10px;
+    text-indent: 60px; 
+}
+.about-img {
+    max-width:90%;
+    padding:15px;
+    float:right;
+}
+
+#halfnhalf {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr; /* Two columns, adjust as needed */
+    padding:15px;
+    align-items:center;
+
+}
+
+.left {
+    grid-column: 1;
+}
+
+.right {
+    grid-column: 2;
+    padding-top:50px;
+}
+
+/* end of about.html */

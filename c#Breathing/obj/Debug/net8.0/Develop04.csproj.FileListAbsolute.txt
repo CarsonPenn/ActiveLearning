@@ -1,0 +1,15 @@
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/bin/Debug/net8.0/Develop04
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/bin/Debug/net8.0/Develop04.deps.json
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/bin/Debug/net8.0/Develop04.runtimeconfig.json
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/bin/Debug/net8.0/Develop04.dll
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/bin/Debug/net8.0/Develop04.pdb
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.AssemblyInfoInputs.cache
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.AssemblyInfo.cs
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.csproj.CoreCompileInputs.cache
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.sourcelink.json
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.dll
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/refint/Develop04.dll
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.pdb
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/Develop04.genruntimeconfig.cache
+/Users/carsonsmith/Desktop/cse210/prove/Develop04/obj/Debug/net8.0/ref/Develop04.dll
