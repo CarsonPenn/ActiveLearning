@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carsonsmith/Desktop/2024/fall 2024/cse210/prove/Develop04/Develop04.csproj": {}
+    "/Users/carsonsmith/Documents/ActiveLearning/c#Breathing/Develop04.csproj": {}
   },
   "projects": {
-    "/Users/carsonsmith/Desktop/2024/fall 2024/cse210/prove/Develop04/Develop04.csproj": {
+    "/Users/carsonsmith/Documents/ActiveLearning/c#Breathing/Develop04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carsonsmith/Desktop/2024/fall 2024/cse210/prove/Develop04/Develop04.csproj",
+        "projectUniqueName": "/Users/carsonsmith/Documents/ActiveLearning/c#Breathing/Develop04.csproj",
         "projectName": "Develop04",
-        "projectPath": "/Users/carsonsmith/Desktop/2024/fall 2024/cse210/prove/Develop04/Develop04.csproj",
+        "projectPath": "/Users/carsonsmith/Documents/ActiveLearning/c#Breathing/Develop04.csproj",
         "packagesPath": "/Users/carsonsmith/.nuget/packages/",
-        "outputPath": "/Users/carsonsmith/Desktop/2024/fall 2024/cse210/prove/Develop04/obj/",
+        "outputPath": "/Users/carsonsmith/Documents/ActiveLearning/c#Breathing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/carsonsmith/.nuget/NuGet/NuGet.Config"
